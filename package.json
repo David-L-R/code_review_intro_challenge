@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./solutions/index.js",
+    "1": "node ./exercises/exercise_1.js",
+    "2": "node ./exercises/exercise_2.js",
+    "3": "node ./exercises/exercise_3.js",
+    "4": "node ./exercises/exercise_4.js",
+    "5": "node ./exercises/exercise_5.js",
+    "6": "node ./exercises/exercise_6.js"
   },
   "repository": {
     "type": "git",
