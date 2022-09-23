@@ -10,7 +10,11 @@
     "3": "node ./exercises/exercise_3.js",
     "4": "node ./exercises/exercise_4.js",
     "5": "node ./exercises/exercise_5.js",
-    "6": "node ./exercises/exercise_6.js"
+    "6": "node ./exercises/exercise_6.js",
+    "7": "node ./exercises/exercise_7.js",
+    "8": "node ./exercises/exercise_8.js",
+    "9": "node ./exercises/exercise_9.js",
+    "10": "node ./exercises/exercise_10.js"
   },
   "repository": {
     "type": "git",
