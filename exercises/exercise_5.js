@@ -1,6 +1,6 @@
 const characters = require("../data/characters.json");
 
-// return all characters, but keep only the following fields:
+// TODO: return all characters, but keep only the following fields:
 /*
  * name
  * height

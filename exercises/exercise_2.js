@@ -1,6 +1,6 @@
 const characters = require("../data/characters.json");
 
-// TODO: return only characters with known birth year
+// TODO: return all characters with known birth year
 const charactersWithKnownBirthDate = () => {
   // CODE HERE
 };

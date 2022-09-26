@@ -1,6 +1,6 @@
 const characters = require("../data/characters.json");
 
-// return only characters with the following properties:
+// TODO: return only characters with the following properties:
 // fair skin color
 // blue eye color
 // female

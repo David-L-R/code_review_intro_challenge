@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./solutions/index.js",
+    "test": "node ./solutions/exercise_1.js && node ./solutions/exercise_2.js && node ./solutions/exercise_3.js && node ./solutions/exercise_4.js && node ./solutions/exercise_5.js && node ./solutions/exercise_6.js && node ./solutions/exercise_7.js && node ./solutions/exercise_8.js",
     "1": "node ./exercises/exercise_1.js",
     "2": "node ./exercises/exercise_2.js",
     "3": "node ./exercises/exercise_3.js",
@@ -12,9 +12,7 @@
     "5": "node ./exercises/exercise_5.js",
     "6": "node ./exercises/exercise_6.js",
     "7": "node ./exercises/exercise_7.js",
-    "8": "node ./exercises/exercise_8.js",
-    "9": "node ./exercises/exercise_9.js",
-    "10": "node ./exercises/exercise_10.js"
+    "8": "node ./exercises/exercise_8.js"
   },
   "repository": {
     "type": "git",
