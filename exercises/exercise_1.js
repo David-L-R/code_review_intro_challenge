@@ -3,8 +3,8 @@ const characters = require("../data/characters.json");
 /* TODO: return one character with an "unknown" birth year  */
 
 const findCharacterUnknownBirthDate = () => {
-   const filteredCharacters = characters.filter(characters.birthYear==="unknown");
-   return filteredCharacters[0];
+   return characters.find(characters.birthYear==="unknown");
+ 
  };
 
 // console.log(findCharacterUnknownBirthDate());
