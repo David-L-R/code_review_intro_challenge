@@ -1,30 +1,26 @@
 const characters = require("../data/characters.json");
-const charactersFormatted = require("../exercises/exercise_5");
-
-// TODO: return all characters, but keep only the following fields:
-/*
- * name
- * height
- * mass
- * gender
- * birth_year
- */
+const formatCharacters = require("../exercises/exercise_6");
 
 const solution = () => {
-  return characters.map((c) => {
-    const { name, height, mass, gender, birth_year } = c;
+  return characters
+    .filter((character) => {
+      const { birth_year, height } = character;
+      return birth_year !== "unknown" && height > 200;
+    })
+    .map((character) => {
+      const { name, height, mass, gender, birth_year } = character;
 
-    return {
-      name,
-      height,
-      mass,
-      gender,
-      birth_year,
-    };
-  });
+      return {
+        name,
+        height,
+        mass,
+        gender,
+        birth_year,
+      };
+    });
 };
 
 console.info(
-  "Exercise 5 passed: ",
-  JSON.stringify(charactersFormatted()) === JSON.stringify(solution())
+  "Exercise 6 passed: ",
+  JSON.stringify(formatCharacters()) === JSON.stringify(solution())
 );

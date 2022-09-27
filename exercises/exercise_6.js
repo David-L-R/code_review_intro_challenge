@@ -1,21 +1,49 @@
 const characters = require("../data/characters.json");
 
-// TODO: return all characters that :
-// - birth_year is known
-// - male
-// - height is more than 200
+// TODO: return all characters.
+// Include only the following fields:
 
-// Only return the following fields
-/*
+/**
  * name
- * height
- * mass
- * gender
- * birth_year
+ * traits
  */
 
-const charactersFormatted = () => {
+// Inside traits, include:
+/**
+ * skin color
+ * eye color
+ * hair color
+ * mass as a NUMBER!
+ * height as a NUMBER!
+ */
+
+// The structure should be like this:
+
+/* 
+  {
+    name: "Owen Lars",
+    traits: {
+          height: 178,
+          mass: 120,
+          colors: [ "brown, grey", "light", "blue"]
+    }
+  }
+
+  in other words
+
+  {
+    name,
+    traits: {
+          height,
+          mass,
+          colors: [ hair_color, skin_color, eye_color]
+    }
+  }
+
+*/
+
+const formatCharacters = () => {
   //  YOUR CODE HERE
 };
 
-module.exports = charactersFormatted;
+module.exports = formatCharacters;

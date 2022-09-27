@@ -1,6 +1,11 @@
 const characters = require("../data/characters.json");
 
-// TODO: return all characters, but keep only the following fields:
+// TODO: return all characters that :
+// - birth_year is known
+// - male
+// - height is more than 200
+
+// Only return the following fields
 /*
  * name
  * height
@@ -9,8 +14,8 @@ const characters = require("../data/characters.json");
  * birth_year
  */
 
-const charactersFormatted = () => {
+const formatCharacters = () => {
   //  YOUR CODE HERE
 };
 
-module.exports = charactersFormatted;
+module.exports = formatCharacters;

@@ -7,8 +7,6 @@ const species = require("../data/species.json");
 // but keep only the following fields:
 /*
  * name
- * homeworld
- * species
  * starships
  */
 
@@ -19,7 +17,14 @@ const species = require("../data/species.json");
 /*
   The result should be of the following structure:
   [
- 
+      { 
+        name: 'Wicket Systri Warrick', 
+        starships: [] 
+      },
+      { 
+        name: 'Nien Nunb', 
+        starships: [ 'Millennium Falcon' ] 
+      },
   ]
 */
 

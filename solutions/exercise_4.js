@@ -1,13 +1,7 @@
 const characters = require("../data/characters.json");
 const charactersFemaleBlueEyesFairSkin = require("../exercises/exercise_4");
-// TODO: return only characters with the following properties:
-// fair skin color
-// blue eye color
-// female
 
 const solution = () => {
-  // YOUR CODE HERE
-  // YOU CAN CHANGE ANYTHING INSIDE THE FUNCTION
   const SKIN = "fair";
   const EYES = "blue";
   const SEX = "female";

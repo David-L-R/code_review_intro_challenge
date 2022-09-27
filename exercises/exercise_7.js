@@ -16,9 +16,7 @@ const planets = require("../data/planets.json");
   [
     { name: 'Kit Fisto', homeworld: 'Glee Anselm' },
     { name: 'Eeth Koth', homeworld: 'Iridonia' },
-    { name: 'Adi Gallia', homeworld: 'Coruscant' },
-    { name: 'Saesee Tiin', homeworld: 'Iktotch' },
-    { name: 'Yarael Poof', homeworld: 'Quermia' },
+    ...
   ]
 */
 
