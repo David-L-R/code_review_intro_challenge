@@ -1,6 +1,7 @@
 const characters = require("../data/characters.json");
 
-// TODO: return only characters that their height is between 180 and 200
+// TODO: return only characters that
+// their height is between 180 and 200
 
 const charactersWithMediumHeight = () => {
   // YOUR CODE HERE
