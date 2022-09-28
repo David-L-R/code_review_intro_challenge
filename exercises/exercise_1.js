@@ -4,7 +4,5 @@ const characters = require('../data/characters.json');
 
 const findCharacterUnknownBirthDate = () =>
   characters.find((character) => character.birth_year === 'unknown');
-// CODE HERE
 
-console.log(findCharacterUnknownBirthDate());
 module.exports = findCharacterUnknownBirthDate;
