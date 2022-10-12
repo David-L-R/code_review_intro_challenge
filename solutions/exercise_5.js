@@ -1,5 +1,5 @@
 const characters = require("../data/characters.json");
-const formatCharacters = require("../exercises/exercise_6");
+const formatCharacters = require("../exercises/exercise_5");
 
 const solution = () => {
   return characters
@@ -21,6 +21,6 @@ const solution = () => {
 };
 
 console.info(
-  "Exercise 6 passed: ",
+  "Exercise 5 passed: ",
   JSON.stringify(formatCharacters()) === JSON.stringify(solution())
 );
