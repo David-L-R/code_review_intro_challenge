@@ -43,14 +43,7 @@ const characters = require("../data/characters.json");
 */
 
 const formatCharacters = () => {
-  return characters.map((character) => ({
-    name: character.name,
-    traits: {
-      mass: +character.mass,
-      height: +character.height,
-      colors: [character.hair_color, character.skin_color, character.eye_color],
-    },
-  }));
+  // YOUR CODE HERE
 };
 
 module.exports = formatCharacters;
