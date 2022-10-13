@@ -1,6 +1,7 @@
 const characters = require("../data/characters.json");
 const ships = require("../data/ships.json");
 const FormatCharactersWithHomeSpeciesShips = require("../exercises/exercise_8");
+const arraysEqual = require("../utils/equal");
 
 const solution = () => {
   return characters.map((character) => {
@@ -18,6 +19,5 @@ const solution = () => {
 
 console.info(
   "Exercise 8 passed: ",
-  JSON.stringify(FormatCharactersWithHomeSpeciesShips()) ===
-    JSON.stringify(solution())
+  arraysEqual(FormatCharactersWithHomeSpeciesShips(), solution())
 );

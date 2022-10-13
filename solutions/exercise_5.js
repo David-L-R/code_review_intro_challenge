@@ -1,5 +1,6 @@
 const characters = require("../data/characters.json");
 const formatCharacters = require("../exercises/exercise_5");
+const arraysEqual = require("../utils/equal");
 
 const solution = () => {
   return characters
@@ -22,5 +23,5 @@ const solution = () => {
 
 console.info(
   "Exercise 5 passed: ",
-  JSON.stringify(formatCharacters()) === JSON.stringify(solution())
+  arraysEqual(formatCharacters(), solution())
 );

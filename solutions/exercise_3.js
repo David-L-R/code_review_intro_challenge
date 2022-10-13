@@ -1,5 +1,6 @@
 const characters = require("../data/characters.json");
 const charactersWithMediumHeight = require("../exercises/exercise_3");
+const arraysEqual = require("../utils/equal");
 
 const solution = () => {
   const MIN_HEIGHT = 180;
@@ -13,5 +14,5 @@ const solution = () => {
 
 console.info(
   "Exercise 3 passed: ",
-  JSON.stringify(charactersWithMediumHeight()) === JSON.stringify(solution())
+  arraysEqual(charactersWithMediumHeight(), solution())
 );

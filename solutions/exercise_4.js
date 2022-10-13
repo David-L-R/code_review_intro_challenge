@@ -1,5 +1,6 @@
 const characters = require("../data/characters.json");
 const charactersFemaleBlueEyesFairSkin = require("../exercises/exercise_4");
+const arraysEqual = require("../utils/equal");
 
 const solution = () => {
   const SKIN = "fair";
@@ -13,6 +14,5 @@ const solution = () => {
 
 console.info(
   "Exercise 4 passed: ",
-  JSON.stringify(charactersFemaleBlueEyesFairSkin()) ===
-    JSON.stringify(solution())
+  arraysEqual(charactersFemaleBlueEyesFairSkin(), solution())
 );

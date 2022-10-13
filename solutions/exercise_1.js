@@ -1,5 +1,6 @@
 const characters = require("../data/characters.json");
 const findCharacterUnknownBirthDate = require("../exercises/exercise_1");
+const arraysEqual = require("../utils/equal");
 
 const solution = () => {
   return characters.find((character) => character.birth_year === "unknown");
@@ -7,5 +8,5 @@ const solution = () => {
 
 console.info(
   "Exercise 1 passed: ",
-  JSON.stringify(findCharacterUnknownBirthDate()) === JSON.stringify(solution())
+  arraysEqual(findCharacterUnknownBirthDate(), solution())
 );
